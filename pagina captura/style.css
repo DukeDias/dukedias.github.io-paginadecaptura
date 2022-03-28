@@ -70,7 +70,7 @@ form input[type=checkbox]{
     cursor: pointer;
 }
 
-button{
+.botao{
     background: rgb(0, 123, 255);
     margin: 30px 0;
     width: 90%;
