@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image:url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    max-width: 600px;
+    width: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.logo{
+    width: 110px;
+}
+
+h1{
+    color: white;
+    margin: 15px 0 0px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+h2{
+    color: white;
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h3{
+    color:white;
+    margin: 40px 0 10px;
+    font-weight: normal;
+}
+
+
+form input[type=text],
+form input[type=email]{
+    margin: 4px 0;
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgb(207, 205, 205);
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+label{
+    width: 95%;
+    font-size: 16px;
+    color: white;
+}
+
+form input[type=checkbox]{
+    cursor: pointer;
+}
+
+button{
+    background: rgb(0, 123, 255);
+    margin: 30px 0;
+    width: 90%;
+    height: 42px;
+    border: 1px solid rgb(0, 123, 255);
+    border-radius: 3px;
+    color:white ;
+    cursor: pointer;
+}
+    
